@@ -2,6 +2,7 @@
 
 Project is done using Vue 3 in Vite alongside with HTML, CSS, and TypeScript. <br/>
 I made current application as user friendly as possible and visually understandable. <br/>
+I liked to keep map more clean and not to add buttons there, only notifications. <br/>
 All the user side instructions are in the user interface view when running the program. <br/>
 Added as much comments as possible to the code. <br/>
 A demo video file is in the project root showcasing the application, <br/>
@@ -25,7 +26,7 @@ Showing UGV marker coordinates.
 
 ## Most difficult parts to complete and conclusion
 
-1. How to set green color on UGV marker nad how to delete markers from map.
+1. How to set green color on UGV marker and how to delete markers from map.
 2. How to solve a moment when I click right button and it need to save actually my current UGV marker location coordinates. Because I didn't like that it saved my exact coordinates what I clicked.
 * I completed this task step by step because there were many things to do and finish.
 * My extra helper was Copilot what helped to make process a bit faster and it gave me some very good ideas, also to understand solvable problems better. <br/>
@@ -35,7 +36,7 @@ Showing UGV marker coordinates.
 ## Application setup and how to use it
 
 1. Clone project from GitHub.
-2. Open it in development environment, for example Visual Studio Code.
+2. Open it in development environment, for example in Visual Studio Code.
 3. Open terminal and move to root folder, like: git\vue-ugv-ui-prototype>
 4. Run the command to start the program:
 ```sh
