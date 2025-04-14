@@ -30,8 +30,7 @@ Showing UGV marker coordinates.
 * I completed this task step by step because there were many things to do and finish.
 * My extra helper was Copilot what helped to make process a bit faster and it gave me some very good ideas, also to understand solvable problems better. <br/>
 (I also did some research what AI is best to use and I found that Copilot is the best for programming.) <br/>
-***<hr/>*** - Sadly I didn't have time to make code modular, I think I needed to start with it right away. Too much time went to make application <br/> work well and 
-to have a good user experience. I think it's only thing what I didn't complete.
+***<hr/>*** - Sadly I didn't have time to make code modular, I think I needed to start with it right away. Too much time went <br/> to make application work well and to have a good user experience. I think it's only thing what I didn't complete.
 
 ## Application setup and how to use it
 
