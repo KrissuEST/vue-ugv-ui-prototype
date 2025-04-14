@@ -40,7 +40,7 @@ onMounted(() => {
   map.value.on("contextmenu", (event) => {
     if (!engineRunning.value) {
       console.warn("Engine not started – left click don't work!");
-      alert("Start the engine for the right click!");  // If engine not running show alert.
+      alert("Start the engine to save waypoints with the right click!");  // If engine not running show alert.
       return;
     }
 
@@ -173,8 +173,8 @@ function handleKeyPress(event) {
   map.value.setView([lat.value, lng.value], map.value.getZoom());
 }
 
-/* For button to get your current location, 
-  it also helps to start the application. */
+/* For a button to get your current location, 
+   it also helps to start the application. */
 function getLocation() {
   if (navigator.geolocation) {
     // watchPosition() watches location changes, it's slower and waiting new GPS updates
@@ -205,8 +205,8 @@ function getLocation() {
 </script>
 
 <template>
-  <p v-if="!locationSet">Get your location first and then you can use the app!</p>
-  <p v-if="locationSet">Click right mouse button on marker to save waypoints! <br/>
+  <p v-if="!locationSet">Get your location first and then you can start using the app!</p>
+  <p v-if="locationSet">Click the right mouse button on marker to save waypoints! <br/>
     Move around on the map with arrow keys.</p>
   <button @click="getLocation()">Get Your Location</button>&nbsp;
 

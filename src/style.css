@@ -36,7 +36,7 @@
     display: flex;
     place-items: center;
     min-width: 320px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
   
   h1 {
@@ -118,7 +118,5 @@
 /* The cursor indicates that the map is not active. */
 .map-not-active {
   cursor: not-allowed;
-  width: 700px;
-  height: 500px;
   opacity: 0.85;
 }
